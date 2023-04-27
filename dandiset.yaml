@@ -2,9 +2,13 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000491
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
+acknowledgement: DHK and MN acknowledge support from the United States Army grant
+  MURI W911NF1910280 and the National Institutes of Health grants U19NS128613 and
+  R01AT012312.
 assetsSummary:
   approach:
   - name: microscopy approach; cell population imaging
@@ -34,28 +38,92 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - PlaneSegmentation
-citation: Zhao, Yue (2023) BrainWaveZZZ (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000491/draft
+citation: Zhao, Yue; Kelley, Douglas (2023) BrainWaveZZZ (Version draft) [Data set].
+  DANDI archive. https://dandiarchive.org/dandiset/000491/draft
 contributor:
 - affiliation: []
-  email: yzhaoinuw@gmail.com
+  email: yuezhao@rochester.edu
   includeInCitation: true
   name: Zhao, Yue
   roleName:
   - dcite:ContactPerson
+  - dcite:DataManager
+  - dcite:Maintainer
   schemaKey: Person
+- affiliation: []
+  email: d.h.kelley@rochester.edu
+  includeInCitation: true
+  name: Kelley, Douglas
+  roleName:
+  - dcite:ContactPerson
+  - dcite:ProjectLeader
+  - dcite:ProjectManager
+  schemaKey: Person
+- contactPoint: []
+  identifier: https://ror.org/035w1gb98
+  includeInCitation: false
+  name: United States Department of the Army
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- contactPoint: []
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2023-04-26T03:36:47.214653+00:00'
-description: dataset from 2023 manuscript Sizes and shapes of perivascular spaces
+description: 'dataset from 2023 manuscript Sizes and shapes of perivascular spaces
   surrounding murine pial arteries by Raicevic et al.
+
+
+  For easier navigation, below is a mapping between the file name and the dataset
+  in the manuscript.
+
+
+  sub-21-07-19-b-act (Mouse 6, dataset K)
+
+
+  sub-21-09-01-b-act (Mouse 8, dataset M)
+
+
+  sub-21-09-20-b-act (Mouse 9, dataset N)
+
+
+  sub-21-10-08-b-act (Mouse 7, dataset L)
+
+
+  sub-BPN-M4 (Mouse 3, dataset E and F)
+
+
+  sub-BPN-M6 (Mouse 4, dataset G and H)
+
+
+  sub-BPN-M7 (Mouse 5, dataset I and J)
+
+
+  sub-BPN-OLD-M2 (Mouse 1, dataset A and B)
+
+
+  sub-BPN-OLD-M3 (Mouse 2, dataset C and D)
+
+  '
+ethicsApproval: []
 id: DANDI:000491/draft
 identifier: DANDI:000491
+keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
 name: BrainWaveZZZ
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000491/draft
 version: draft
+wasGeneratedBy: []
