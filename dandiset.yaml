@@ -38,8 +38,8 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - PlaneSegmentation
-citation: Zhao, Yue; Kelley, Douglas (2023) BrainWaveZZZ (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000491/draft
+citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainWaveZZZ (Version
+  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -50,7 +50,19 @@ contributor:
   - dcite:DataManager
   - dcite:Maintainer
   schemaKey: Person
-- affiliation: []
+- affiliation:
+  - identifier: https://ror.org/022kthw22
+    name: University of Rochester
+    schemaKey: Affiliation
+  includeInCitation: true
+  name: Boster, Kimberly
+  roleName:
+  - dcite:Researcher
+  schemaKey: Person
+- affiliation:
+  - identifier: https://ror.org/022kthw22
+    name: University of Rochester
+    schemaKey: Affiliation
   email: d.h.kelley@rochester.edu
   includeInCitation: true
   name: Kelley, Douglas
@@ -74,12 +86,13 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-04-26T03:36:47.214653+00:00'
-description: 'dataset from 2023 manuscript Sizes and shapes of perivascular spaces
-  surrounding murine pial arteries by Raicevic et al.
+datePublished: '2023-04-27T18:09:26.577483+00:00'
+description: 'Dataset from the 2023 manuscript titled Sizes and Shapes of Perivascular
+  Spaces Surrounding Murine Pial Arteries by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1
 
 
-  For easier navigation, below is a mapping between the file name and the dataset
-  in the manuscript.
+  For easier navigation, below is a mapping between the NWB file names and the datasets
+  referenced in the manuscript.
 
 
   sub-21-07-19-b-act (Mouse 6, dataset K)
@@ -119,6 +132,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
 name: BrainWaveZZZ
 protocol: []
+publishedBy:
+  endDate: '2023-04-27T18:09:26.577483+00:00'
+  id: urn:uuid:f36fe80d-3f3b-4489-9c59-c9f0e117f095
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-04-27T18:09:26.577483+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:45511828-88fe-436c-92f7-9b5f9ac02618
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
