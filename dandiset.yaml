@@ -39,7 +39,7 @@ assetsSummary:
   - OpticalChannel
   - PlaneSegmentation
 citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainWaveZZZ (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
+  0.230427.1809) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000491/0.230427.1809
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -122,14 +122,15 @@ description: 'Dataset from the 2023 manuscript titled Sizes and Shapes of Periva
   sub-BPN-OLD-M3 (Mouse 2, dataset C and D)
 
   '
+doi: 10.48324/dandi.000491/0.230427.1809
 ethicsApproval: []
-id: DANDI:000491/draft
+id: DANDI:000491/0.230427.1809
 identifier: DANDI:000491
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000491/0.230427.1809/assets.yaml
 name: BrainWaveZZZ
 protocol: []
 publishedBy:
@@ -149,6 +150,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000491/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000491/0.230427.1809
+version: 0.230427.1809
 wasGeneratedBy: []
