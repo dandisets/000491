@@ -38,7 +38,7 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - PlaneSegmentation
-citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainWaveZZZ (Version
+citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainFlowZZZ (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
 contributor:
 - affiliation: []
@@ -86,42 +86,25 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2023-04-26T03:36:47.214653+00:00'
-datePublished: '2023-04-27T18:09:26.577483+00:00'
-description: 'Dataset from the 2023 manuscript titled Sizes and Shapes of Perivascular
-  Spaces Surrounding Murine Pial Arteries by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1
-
-
-  For easier navigation, below is a mapping between the NWB file names and the datasets
-  referenced in the manuscript.
-
-
-  sub-21-07-19-b-act (Mouse 6, dataset K)
-
-
-  sub-21-09-01-b-act (Mouse 8, dataset M)
-
-
-  sub-21-09-20-b-act (Mouse 9, dataset N)
-
-
-  sub-21-10-08-b-act (Mouse 7, dataset L)
-
-
-  sub-BPN-M4 (Mouse 3, dataset E and F)
-
-
-  sub-BPN-M6 (Mouse 4, dataset G and H)
-
-
-  sub-BPN-M7 (Mouse 5, dataset I and J)
-
-
-  sub-BPN-OLD-M2 (Mouse 1, dataset A and B)
-
-
-  sub-BPN-OLD-M3 (Mouse 2, dataset C and D)
-
-  '
+description: "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Perivascular
+  Spaces Surrounding Murine Pial Arteries_** by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1.
+  \ \n\n## Overview\nThe **14 datasets** from **9 subjects** include the original
+  3D two photon microscopy data from three channels which show tracer in the vessel,
+  PVSs, and microspheres. Additionally, each dataset also includes the final binary
+  segmentation of the PVS and vessel used to generate the model and statistics in
+  the manuscript. Additional details regarding the subjects, tracer injection, image
+  acquisition, and segmentation can be found in the manuscript at https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9949243/.\n\n##
+  Content\nFor easier navigation, below is a mapping between the NWB file names and
+  the datasets referenced in the manuscript.\n1. sub-21-07-19-b-act (Mouse 6, dataset
+  K)\n2. sub-21-09-01-b-act (Mouse 8, dataset M)\n3. sub-21-09-20-b-act (Mouse 9,
+  dataset N)\n4. sub-21-10-08-b-act (Mouse 7, dataset L)\n5. sub-BPN-M4 (Mouse 3,
+  dataset E and F)\n6. sub-BPN-M6 (Mouse 4, dataset G and H)\n7. sub-BPN-M7 (Mouse
+  5, dataset I and J)\n8. sub-BPN-OLD-M2 (Mouse 1, dataset A and B)\n9. sub-BPN-OLD-M3
+  (Mouse 2, dataset C and D)\n\n## Instructions for Reading the Data:\nThe .nwb files
+  can be viewed using Python or MATLAB, as described at https://www.nwb.org/how-to-use/.
+  For convenience, the following instructions describe the steps to open and view
+  the one of the .nwb files in MATLAB.\n1. Follow the instructions to install MatNWB
+  here: <https://neurodatawithoutborders.github.io/matnwb/#setup>\n"
 ethicsApproval: []
 id: DANDI:000491/draft
 identifier: DANDI:000491
@@ -130,20 +113,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
-name: BrainWaveZZZ
+name: BrainFlowZZZ
 protocol: []
-publishedBy:
-  endDate: '2023-04-27T18:09:26.577483+00:00'
-  id: urn:uuid:f36fe80d-3f3b-4489-9c59-c9f0e117f095
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-04-27T18:09:26.577483+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:45511828-88fe-436c-92f7-9b5f9ac02618
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
