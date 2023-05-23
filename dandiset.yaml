@@ -71,14 +71,16 @@ contributor:
   - dcite:ProjectLeader
   - dcite:ProjectManager
   schemaKey: Person
-- contactPoint: []
+- awardNumber: MURI W911NF1910280
+  contactPoint: []
   identifier: https://ror.org/035w1gb98
   includeInCitation: false
   name: United States Department of the Army
   roleName:
   - dcite:Funder
   schemaKey: Organization
-- contactPoint: []
+- awardNumber: U19NS128613 and R01AT012312
+  contactPoint: []
   identifier: https://ror.org/01cwqze88
   includeInCitation: false
   name: National Institutes of Health
@@ -100,11 +102,25 @@ description: "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Per
   dataset N)\n4. sub-21-10-08-b-act (Mouse 7, dataset L)\n5. sub-BPN-M4 (Mouse 3,
   dataset E and F)\n6. sub-BPN-M6 (Mouse 4, dataset G and H)\n7. sub-BPN-M7 (Mouse
   5, dataset I and J)\n8. sub-BPN-OLD-M2 (Mouse 1, dataset A and B)\n9. sub-BPN-OLD-M3
-  (Mouse 2, dataset C and D)\n\n## Instructions for Reading the Data:\nThe .nwb files
-  can be viewed using Python or MATLAB, as described at https://www.nwb.org/how-to-use/.
-  For convenience, the following instructions describe the steps to open and view
-  the one of the .nwb files in MATLAB.\n1. Follow the instructions to install MatNWB
-  here: <https://neurodatawithoutborders.github.io/matnwb/#setup>\n"
+  (Mouse 2, dataset C and D)\n\n## Data Reading Instructions\nThe .nwb files can be
+  viewed using PyNWB or MatNWB. To install and set up, please visit <https://www.nwb.org/how-to-use/>.
+  Below, we show how to open and view an .nwb file using MatNWB. \n### Loading the
+  image data\n```matlab\nnwb = nwbRead(PATH_TO_NWB_FILE);\n\n% first check what color
+  channels are present\n>> nwb.acquisition\nans = \n  3×1 Set array with properties:\n
+  \   TwoPhotonSeriesChanA: [types.core.TwoPhotonSeries]\n    TwoPhotonSeriesChanB:
+  [types.core.TwoPhotonSeries]\n    TwoPhotonSeriesChanC: [types.core.TwoPhotonSeries]\n```\nThe
+  above code load the .nwb file and the output tells us that there are three channels
+  present in the nwb file, which are ChanA, ChanB, and ChanC. Then, to load the actual
+  data from a channel,\n```matlab\n% load the image data from ChanA\n>> chanAdata
+  = nwb.acquisition.get('TwoPhotonSeriesChanA').data.load();\n\n% check its shape\n>>
+  size(chanAdata)\nans =\n     1   512   512   181\n```\n### Loading the segmentation
+  masks\nFor an overview of the mask for ChanA, for example,\n```matlab\n>> nwb.processing.get('ophys').nwbdatainterface.get('ImageSegmentation').planesegmentation.get('PlaneSegmentationChanA').image_mask.data\nans
+  = \n  DataStub with properties:\n    filename: '.\\sub-BPN-M4_ses-20210524-m1_obj-1c8nyxo_ophys.nwb'\n
+  \       path: '/processing/ophys/ImageSegmentation/PlaneSegmentationChanA/image_mask'\n
+  \       dims: [512 512 181]\n       ndims: 3\n    dataType: 'logical'\n```\nTo load
+  the actual mask data into array (may take several seconds to load),\n```matlab\n%
+  load mask from ChanA\n>> mask = nwb.processing.get('ophys').nwbdatainterface.get('ImageSegmentation').planesegmentation.get('PlaneSegmentationChanA').image_mask.data.load();\n\n%
+  check its shape\n>> size(mask)\nans =\n   512   512   181\n```"
 ethicsApproval: []
 id: DANDI:000491/draft
 identifier: DANDI:000491
