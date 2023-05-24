@@ -38,8 +38,8 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
   - PlaneSegmentation
-citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas (2023) BrainFlowZZZ (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
+citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas; Raicevic, Nikola (2023) BrainFlowZZZ
+  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -54,6 +54,7 @@ contributor:
   - identifier: https://ror.org/022kthw22
     name: University of Rochester
     schemaKey: Affiliation
+  identifier: 0000-0001-5178-128X
   includeInCitation: true
   name: Boster, Kimberly
   roleName:
@@ -64,6 +65,7 @@ contributor:
     name: University of Rochester
     schemaKey: Affiliation
   email: d.h.kelley@rochester.edu
+  identifier: 0000-0001-9658-2954
   includeInCitation: true
   name: Kelley, Douglas
   roleName:
@@ -87,6 +89,16 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/022kthw22
+    name: University of Rochester
+    schemaKey: Affiliation
+  email: nraicevi@u.rochester.edu
+  includeInCitation: true
+  name: Raicevic, Nikola
+  roleName:
+  - dcite:Author
+  schemaKey: Person
 dateCreated: '2023-04-26T03:36:47.214653+00:00'
 description: "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Perivascular
   Spaces Surrounding Murine Pial Arteries_** by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1.
