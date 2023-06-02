@@ -39,7 +39,7 @@ assetsSummary:
   - ProcessingModule
   - PlaneSegmentation
 citation: Zhao, Yue; Boster, Kimberly; Kelley, Douglas; Raicevic, Nikola (2023) BrainFlowZZZ
-  (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000491/draft
+  (Version 0.230602.1307) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.000491/0.230602.1307
 contributor:
 - affiliation: []
   email: yuezhao@rochester.edu
@@ -134,14 +134,15 @@ description: "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Per
   the actual mask data into array (may take several seconds to load),\n```matlab\n%
   load mask from ChanA\n>> mask = nwb.processing.get('ophys').nwbdatainterface.get('ImageSegmentation').planesegmentation.get('PlaneSegmentationChanA').image_mask.data.load();\n\n%
   check its shape\n>> size(mask)\nans =\n   512   512   181\n```"
+doi: 10.48324/dandi.000491/0.230602.1307
 ethicsApproval: []
-id: DANDI:000491/draft
+id: DANDI:000491/0.230602.1307
 identifier: DANDI:000491
 keywords: []
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000491/0.230602.1307/assets.yaml
 name: BrainFlowZZZ
 protocol: []
 publishedBy:
@@ -161,6 +162,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000491/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000491/0.230602.1307
+version: 0.230602.1307
 wasGeneratedBy: []
