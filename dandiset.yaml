@@ -100,6 +100,7 @@ contributor:
   - dcite:Author
   schemaKey: Person
 dateCreated: '2023-04-26T03:36:47.214653+00:00'
+datePublished: '2023-06-02T13:07:32.205531+00:00'
 description: "Dataset from the 2023 manuscript titled **_Sizes and Shapes of Perivascular
   Spaces Surrounding Murine Pial Arteries_** by Raicevic et al. DOI: 10.21203/rs.3.rs-2587250/v1.
   \ \n\n## Overview\nThe **14 datasets** from **9 subjects** include the original
@@ -143,6 +144,18 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000491/versions/draft/assets/
 name: BrainFlowZZZ
 protocol: []
+publishedBy:
+  endDate: '2023-06-02T13:07:32.205531+00:00'
+  id: urn:uuid:2165d23e-389e-4efd-8ccf-c841c4648cd4
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-06-02T13:07:32.205531+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ed323eeb-c2bd-4cb1-8c6e-cbccda4c4e30
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
